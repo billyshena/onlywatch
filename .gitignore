@@ -17,3 +17,4 @@ img/*
 sitemap.xml
 modules/*/config.xml
 .idea/
+.DS_store
