@@ -1,0 +1,64 @@
+footer{
+	height: 40px;
+	background: $grey;
+	width: 100%;
+	display: block;
+	line-height: 40px;
+	padding-left: 30px;
+	color: white;
+	font-family: $lato;
+	font-size: 0.75rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	.right{
+		float: right;
+		height: 100%;
+		position: relative;
+		&>a{
+			margin: 0 8px;
+			color: white;
+			text-decoration: none;
+			vertical-align: top;
+		}
+		.social{
+			background: black;
+			height: 100%;
+			display: inline-block;
+			margin-left: 8px;
+			span{
+				float: left;
+				margin: 0 30px;
+			}
+			li{
+				display: inline-block;
+				width: 70px;
+				height: 100%;
+				vertical-align: top;
+				float: left;
+				a{
+					display: block;
+					height: 100%;
+					width: 100%;
+					text-align: center;
+					img{
+						display: inline-block;
+						vertical-align: middle;
+					}
+				}
+			}
+			&>li:nth-child(1){
+				background: #1f1f1f;
+			}
+			&>li:nth-child(2){
+				background: #303030;
+			}
+			&>li:nth-child(3){
+				background: #3f3f3f;
+			}
+		}
+	}
+}

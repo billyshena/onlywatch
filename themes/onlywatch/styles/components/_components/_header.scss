@@ -1,0 +1,47 @@
+header{
+	height: 75px;
+	line-height: 75px;
+	display: block;
+	width: 100%;
+	background: $grey;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	.logo{
+		margin-left: 30px;
+		display: inline-block;
+		height: 100%;
+		img{
+			margin-top: 29px;
+		}
+	}
+	nav{
+		float: right;
+		position: relative;
+		height: 100%;
+		ul{
+			display: inline-block;
+			vertical-align: top;
+			li{
+				display: inline-block;
+				text-transform: uppercase;
+				margin: 0 15px;
+				font-size: 0.875rem;
+				font-family: $lato;
+				font-weight: 300;
+				a{
+					color: white;
+					text-decoration: none;
+				}
+			}
+		}
+		.panier{
+			display: inline-block;
+			height: 100%;
+			width: 75px;
+			background: $blue url(../images/icons/panier.png) no-repeat center center;
+			vertical-align: top;
+		}
+	}
+}

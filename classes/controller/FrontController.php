@@ -828,6 +828,7 @@ class FrontControllerCore extends Controller
 		$this->context->smarty->assign($this->initLogoAndFavicon());
 	}
 
+
 	public function initFooter()
 	{
 		$this->context->smarty->assign(array(
