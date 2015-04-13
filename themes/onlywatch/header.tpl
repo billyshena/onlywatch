@@ -18,8 +18,8 @@
         <a href="" class="logo"><img src="{$img_dir}icons/logo.png" alt="logo"></a>
         <nav>
             <ul>
-                <li><a href="" cl>home</a></li>
-                <li><a href="">collection</a></li>
+                <li><a href="http://localhost:8888/prestashop/">home</a></li>
+                <li><a href="http://localhost:8888/prestashop/collection-watch">collection</a></li>
             </ul>
             <a class="panier" href="">
 
