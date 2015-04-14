@@ -26,9 +26,9 @@
     </header>
     <div class="content">
         <div class="main-desc">
-            <h1 class="title">Portugaise watch club chronographe</h1>
-            <h2 class="collection">«Ocean Drive»</h2>
-            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ee natus error sit voluptatem accusantium doloremque laudanconsectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            <h1 class="title">{$product->name}</h1>
+            <h2 class="collection">{$product->description_short}</h2>
+            <div class="desc">{$product->description}</div>
             <a class="buy-link">Ajouter au panier</a>
             <img src="{$img_dir}content/watch.png" class="img-watch">
         </div>

@@ -27,44 +27,19 @@
     </header>
     <div class="content">
         <h1 class="title">Collection</h1>
+
+
         <div>
             <ul class="watch-list clearfix container">
-                <li>
-                    <img src="{$img_dir}content/watch.png">
-                    <h2 class="watch-title">Portugaise yacht chronographe</h2>
-                    <h3 class="watch-collection">«Ocean Drive»</h3>
-                    <a class="watch-link" href="watch?id=1">Découvrir la montre</a>
-                </li>
-                <li>
-                    <img src="{$img_dir}content/watch.png">
-                    <h2 class="watch-title">Portugaise yacht chronographe</h2>
-                    <h3 class="watch-collection">«Ocean Drive»</h3>
-                    <a class="watch-link">Découvrir la montre</a>
-                </li>
-                <li>
-                    <img src="{$img_dir}content/watch.png">
-                    <h2 class="watch-title">Portugaise yacht chronographe</h2>
-                    <h3 class="watch-collection">«Ocean Drive»</h3>
-                    <a class="watch-link">Découvrir la montre</a>
-                </li>
-                <li>
-                    <img src="{$img_dir}content/watch.png">
-                    <h2 class="watch-title">Portugaise yacht chronographe</h2>
-                    <h3 class="watch-collection">«Ocean Drive»</h3>
-                    <a class="watch-link">Découvrir la montre</a>
-                </li>
-                <li>
-                    <img src="{$img_dir}content/watch.png">
-                    <h2 class="watch-title">Portugaise yacht chronographe</h2>
-                    <h3 class="watch-collection">«Ocean Drive»</h3>
-                    <a class="watch-link">Découvrir la montre</a>
-                </li>
-                <li>
-                    <img src="{$img_dir}content/watch.png">
-                    <h2 class="watch-title">Portugaise yacht chronographe</h2>
-                    <h3 class="watch-collection">«Ocean Drive»</h3>
-                    <a class="watch-link">Découvrir la montre</a>
-                </li>
+                {foreach from=$products item=product}
+                    <li>
+                        <img src="{$img_dir}content/watch.png">
+                        <h2 class="watch-title">{$product.name}</h2>
+                        <h3 class="watch-collection">«Ocean Drive»</h3>
+                        <a class="watch-link" href="watch?id={$product.id_product}">Découvrir la montre</a>
+                    </li>
+                {/foreach}
+
             </ul>
             <div class="filters">
                 <div>
