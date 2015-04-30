@@ -26,11 +26,10 @@ class WatchPageControllerCore extends FrontController  {
         $product = new product($id, false, $this->context->language->id);
         $link = new Link();
 
-        $imagePath = $link->getImageLink($product->link_rewrite, $id, 'home_default'); // change the last parameters to get the size you need
+
         $this->context->smarty->assign(array(
             'product' => $product
         ));
-
 
         $this->setTemplate(_PS_THEME_DIR_.'single-watch.tpl');
     }

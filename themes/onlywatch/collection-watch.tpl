@@ -27,18 +27,21 @@
     </header>
     <div class="content">
         <h1 class="title">Collection</h1>
-
-
         <div>
             <ul class="watch-list clearfix container">
+
+                {assign var='index' value='0'}
                 {foreach from=$products item=product}
                     <li>
-                        <img src="{$img_dir}content/watch.png">
+                        <img src="{$img_dir}content/{$index}.png" alt=""/>
+{*                        <img src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'home_default')|escape:'html':'UTF-8'}" alt=""/>*}
                         <h2 class="watch-title">{$product.name}</h2>
                         <h3 class="watch-collection">«Ocean Drive»</h3>
                         <a class="watch-link" href="watch?id={$product.id_product}">Découvrir la montre</a>
                     </li>
+                    {assign var='index' value=$index+1}
                 {/foreach}
+
 
             </ul>
             <div class="filters">
@@ -46,16 +49,15 @@
                     <form>
                         <span>filtrer par :</span>
                         <select>
-                            <option>ok</option>
+                            <option>Collections</option>
                         </select>
                         <select>
-                            <option>ok</option>
+                            <option>Prix</option>
                         </select>
-                        <select>
-                            <option>ok</option>
-                        </select>
+
                     </form>
                     <a class="download">Télécharger le catalogue en PDF</a>
+                    { hook h='watchPDF' }
                 </div>
             </div>
         </div>

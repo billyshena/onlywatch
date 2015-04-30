@@ -513,6 +513,12 @@ class ProductCore extends ObjectModel
 		return $fields;
 	}
 
+
+    public static function getProductImages($id_product){
+        $id_image = Db::getInstance()->ExecuteS('SELECT `id_image` FROM `'._DB_PREFIX_.'image` WHERE `id_product` = '.(int)($id_product));
+        return $id_image;
+    }
+
 	public function add($autodate = true, $null_values = false)
 	{
 		if (!parent::add($autodate, $null_values))

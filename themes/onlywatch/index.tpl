@@ -27,32 +27,32 @@
         <img src="{$img_dir}content/img-home-1.png">
         <div class="text-content">
             <div>
-                <h1 class="title">The complete <br><strong>collection</strong></h1>
-                <a class="classic-btn">watch video</a>
+                <h1 class="title">Toute la<br><strong>collection</strong></h1>
+                <a style="color:white;text-decoration: none;" href="http://localhost:8888/prestashop/collection-watch" class="classic-btn">Voir tout</a>
             </div>
         </div>
     </div>
     <div class="right">
         <div class="top">
-            <img src="{$img_dir}content/img-home-2.jpg">
+            <img src="{$img_dir}content/collection1.jpeg">
             <div class="text-content">
-                <h2 class="title">The complete</h2>
-                <p class="subtitle">The Rolex Collection</p>
+                <h2 class="title">La collection Oyster</h2>
+                <p class="subtitle">Rolex</p>
             </div>
         </div>
         <div class="bottom clearfix">
             <div class="left">
-                <img src="{$img_dir}content/img-home-2.jpg">
+                <img src="{$img_dir}content/collection2.jpg">
                 <div class="text-content">
-                    <h2 class="title">The complete</h2>
-                    <p class="subtitle">The Rolex Collection</p>
+                    <h2 class="title">La collection Cellini</h2>
+                    <p class="subtitle">Rolex</p>
                 </div>
             </div>
             <div class="right">
                 <img src="{$img_dir}content/img-home-2.jpg">
                 <div class="text-content">
-                    <h2 class="title">The complete</h2>
-                    <p class="subtitle">The Rolex Collection</p>
+                    <h2 class="title">Calibre 3255</h2>
+                    <p class="subtitle">Rolex</p>
                 </div>
             </div>
         </div>

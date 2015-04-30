@@ -30,59 +30,59 @@
             <h2 class="collection">{$product->description_short}</h2>
             <div class="desc">{$product->description}</div>
             <a class="buy-link">Ajouter au panier</a>
-            <img src="{$img_dir}content/watch.png" class="img-watch">
+            <img src="{$img_dir}content/7.png" class="img-watch">
         </div>
         <div class="caracteristics">
             <ul class="clearfix">
                 <li>
-                    <h3 class="title">case size</h3>
-                    <strong class="value">Round, 34.0MM, 9.5 Thickness</strong>
+                    <h3 class="title">Poids</h3>
+                    <strong class="value">400g</strong>
                 </li>
                 <li>
-                    <h3 class="title">case size</h3>
-                    <strong class="value">Round, 34.0MM, 9.5 Thickness</strong>
+                    <h3 class="title">Boîtier</h3>
+                    <strong class="value">Oyster, 26 mm</strong>
                 </li>
                 <li>
-                    <h3 class="title">case size</h3>
-                    <strong class="value">Round, 34.0MM, 9.5 Thickness</strong>
+                    <h3 class="title">Matériaux</h3>
+                    <strong class="value">Or jaune, 18 CT</strong>
                 </li>
                 <li>
-                    <h3 class="title">case size</h3>
-                    <strong class="value">Round, 34.0MM, 9.5 Thickness</strong>
+                    <h3 class="title">Diamètre</h3>
+                    <strong class="value">26 mm</strong>
                 </li>
                 <li>
-                    <h3 class="title">case size</h3>
-                    <strong class="value">Round, 34.0MM, 9.5 Thickness</strong>
+                    <h3 class="title">Etanchéité</h3>
+                    <strong class="value">Jusqu'à 100 mètres</strong>
                 </li>
                 <li>
-                    <h3 class="title">case size</h3>
-                    <strong class="value">Round, 34.0MM, 9.5 Thickness</strong>
+                    <h3 class="title">Calibre</h3>
+                    <strong class="value">2235, Manufacture Rolex</strong>
                 </li>
             </ul>
         </div>
         <ul class="watch-list clearfix container">
             <h2 class="title">Montres similaires</h2>
             <li>
-                <img src="{$img_dir}content/watch.png">
-                <h2 class="watch-title">Portugaise yacht chronographe</h2>
+                <img src="{$img_dir}content/1.png">
+                <h2 class="watch-title">Cellini Turbo</h2>
                 <h3 class="watch-collection">«Ocean Drive»</h3>
                 <a class="watch-link">Découvrir la montre</a>
             </li>
             <li>
-                <img src="{$img_dir}content/watch.png">
-                <h2 class="watch-title">Portugaise yacht chronographe</h2>
+                <img src="{$img_dir}content/2.png">
+                <h2 class="watch-title">Oyster Flash</h2>
                 <h3 class="watch-collection">«Ocean Drive»</h3>
                 <a class="watch-link">Découvrir la montre</a>
             </li>
             <li>
-                <img src="{$img_dir}content/watch.png">
-                <h2 class="watch-title">Portugaise yacht chronographe</h2>
+                <img src="{$img_dir}content/3.png">
+                <h2 class="watch-title">Cellini leather</h2>
                 <h3 class="watch-collection">«Ocean Drive»</h3>
                 <a class="watch-link">Découvrir la montre</a>
             </li>
             <li>
-                <img src="{$img_dir}content/watch.png">
-                <h2 class="watch-title">Portugaise yacht chronographe</h2>
+                <img src="{$img_dir}content/4.png">
+                <h2 class="watch-title">Roll-e 5th edition</h2>
                 <h3 class="watch-collection">«Ocean Drive»</h3>
                 <a class="watch-link">Découvrir la montre</a>
             </li>

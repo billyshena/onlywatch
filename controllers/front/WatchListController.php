@@ -24,7 +24,7 @@ class WatchListControllerCore extends FrontController  {
         $this->context->smarty->assign(array(
             'products' => $products
         ));
-/*        print_r($products);*/
+
         $this->setTemplate(_PS_THEME_DIR_.'collection-watch.tpl');
     }
 
